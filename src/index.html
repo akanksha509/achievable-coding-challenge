@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Achievable</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="intro">
+      <h1>Coding Challenge</h1>
+      <br />
+      <b>Task</b>
+      <div>
+        Randomize this question by updating
+        <b>randomizeQuestion</b> in index.mjs such that each press of the
+        <b>Randomize</b> button creates a unique version of the original
+        question with different values for the variables in the prompt, choices,
+        answer, and explanation.
+      </div>
+      <br />
+
+      <button class="randomize-btn">Randomize</button>
+      <br />
+    </div>
+
+    <div class="rand"></div>
+
+    <div class="refresh-message">
+      Click the preview refresh button (&#x27F3;) in the toolbar to see the
+      latest changes after saving. The <b>Randomize</b> button will not work
+      until the Preview is refreshed.
+    </div>
+
+    <div class="container">
+      <b>Prompt</b>
+      <div class="prompt"></div>
+    </div>
+
+    <div class="container">
+      <b>Choices</b>
+      <ul class="choices"></ul>
+    </div>
+
+    <div class="container">
+      <b>Explanation</b>
+      <div class="explanation"></div>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
